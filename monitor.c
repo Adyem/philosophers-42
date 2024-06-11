@@ -83,7 +83,7 @@ void	*ft_monitor(void *arg)
 			ft_stop_simulation(info);
 			return (NULL);
 		}
-		usleep(50);
+		usleep(500);
 	}
 	return (NULL);
 }
