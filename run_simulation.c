@@ -41,7 +41,7 @@ static void	ft_one_philo(t_simulation *info, t_philosopher *philo)
 	pthread_mutex_lock(&info->data_mutex);
 	temp = info->params.time_to_die;
 	pthread_mutex_unlock(&info->data_mutex);
-	usleep(temp + 1000);
+	usleep(temp);
 	return ;
 }
 
